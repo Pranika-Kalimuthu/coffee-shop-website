@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coffee shop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <a href="#" class="logo">coffee <i class="fas fa-mug-hot"></i></a>
+
+      <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#about">about</a>
+        <a href="#menu">menu</a>
+        <a href="#contact">contact</a>
+      </nav>
+
+      <div class="icons">
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-bars" id="menu-btn"></div>
+      </div>
+
+      <div class="search-form">
+        <input type="search" class="search-box" placeholder="Expresso.." />
+        <label for="search-box" class="fas fa-search"></label>
+      </div>
+    </header>
+
+
+    <section class="home" id="home">
+      <div class="content" style="text-align: center;">
+        <h3 style="text-align:center;">fresh coffee in the morning</h3>
+       
+        <a href="#menu" class="btn"> buy one now </a>
+        
+      </div>
+
+      <!-- <div class="image" style="width: 1000px;text-align: end;" >
+        <img src="coffee-sticker-isolated-tansparent-background-png-logo-generative-ai-277304903-removebg-preview.png" alt="" class="main-home-image" alt="" />
+      </div> -->
+
+      <div class="image-slider">
+        <img src="image/home-img-1.png" alt="" />
+        <img src="image/home-img-2.png" alt="" />
+        <img src="image/home-img-3.png" alt="" />
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about" style="background-color: #2c2220;" id="about" >
+      <h1 class="heading">about <span>us</span></h1>
+
+      <div class="row">
+        <!-- <div class="image">
+          <img src="images/about-img.png" alt="" />
+        </div> -->
+
+        <div class="content" style="text-align:center;" >
+          <h3 class="title">what's make our coffee special!</h3>
+          <p> coffee stands out due to our meticulous selection of premium beans sourced from sustainable farms worldwide. Each cup is expertly roasted to perfection, ensuring rich flavors and aromatic profiles that delight every palate. We prioritize quality and freshness, with beans roasted in small batches to maintain peak flavor. Our commitment to ethical sourcing and community support sets us apart, creating a coffee experience that's both exceptional and socially responsible. Discover the difference in every sip – taste the passion in every cup of our specialty coffee.
+          </p>
+          <a href="#review" class="btn">read more</a>
+          <div class="icons-container">
+            <div class="icons">
+              <img src="images/about-icon-1.png" alt="" />
+              <h3>quality coffee</h3>
+            </div>
+            <div class="icons">
+              <img src="images/about-icon-3.png" alt="" />
+              <h3>free delivery</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="menu" id="menu" >
+      <h1 class="heading">our menu <span>popular menu</span></h1>
+
+      <div class="menu-items-container" style="background-color: #2c2220;">
+        <div href="#" class="menu-item">
+          <img src="coffee-sticker-isolated-tansparent-background-png-logo-generative-ai-277304903-removebg-preview.png" alt="" />
+          <div class="menu-info">
+            <h3 class="menu-name">Espresso</h3>
+            <p class="menu-description">
+              A shot of concentrated coffee brewed by forcing hot water through finely-ground coffee beans.
+            </p>
+            <a class="menu-price">Rs 200 <span>300</span></a>
+          </div>
+
+          <button class="btn add-to-cart">Add to Cart</button>
+        </div>
+
+        <div href="#" class="menu-item">
+          <img src="coffee-sticker-isolated-tansparent-background-png-logo-generative-ai-277304903-removebg-preview.png" alt="" />
+          <div class="menu-info">
+            <h3 class="menu-name">Cappuccino</h3>
+            <p class="menu-description">
+              Equal parts espresso, steamed milk, and milk foam.
+            </p>
+            <a class="menu-price">Rs 250 <span>335</span></a>
+          </div>
+
+          <button class="btn add-to-cart">Add to Cart</button>
+        </div>
+
+        <div href="#" class="menu-item">
+          <img src="coffee-sticker-isolated-tansparent-background-png-logo-generative-ai-277304903-removebg-preview.png" alt="" />
+          <div class="menu-info">
+            <h3 class="menu-name">Latte</h3>
+            <p class="menu-description">
+              A shot of espresso with steamed milk and a small amount of milk foam on top.
+            </p>
+            <a class="menu-price">Rs 350<span>400</span></a>
+          </div>
+
+          <button class="btn add-to-cart">Add to Cart</button>
+        </div>
+        <div href="#" class="menu-item">
+          <img src="coffee-sticker-isolated-tansparent-background-png-logo-generative-ai-277304903-removebg-preview.png" alt="" />
+          <div class="menu-info">
+            <h3 class="menu-name">Americano</h3>
+            <p class="menu-description">
+              Espresso shots diluted with hot water.
+            </p>
+            <a class="menu-price">Rs 250<span>350</span></a>
+          </div>
+
+          <button class="btn add-to-cart">Add to Cart</button>
+        </div>
+        <div href="#" class="menu-item">
+          <img src="coffee-sticker-isolated-tansparent-background-png-logo-generative-ai-277304903-removebg-preview.png" alt="" />
+          <div class="menu-info">
+            <h3 class="menu-name">Macchiato</h3>
+            <p class="menu-description">
+              Espresso with a small amount of steamed milk and foam.
+            </p>
+            <a class="menu-price">Rs 300<span>400</span></a>
+          </div>
+
+          <button class="btn add-to-cart">Add to Cart</button>
+        </div>
+        <div href="#" class="menu-item">
+          <img src="coffee-sticker-isolated-tansparent-background-png-logo-generative-ai-277304903-removebg-preview.png" alt="" />
+          <div class="menu-info">
+            <h3 class="menu-name">Mocha</h3>
+            <p class="menu-description">
+              Espresso with steamed milk, chocolate syrup, and topped with whipped cream.
+            </p>
+            <a class="menu-price">Rs 250 <span>300</span></a>
+          </div>
+
+          <button class="btn add-to-cart">Add to Cart</button>
+        </div>
+      </div>
+    </section>
+
+   
+
+    <section class="contact" id="contact" >
+      <h1 class="heading"><span>contact </span> us</h1>
+      <div class="row" style="background-color: #2c2220;">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3915.4012746950907!2d76.99458387502929!3d11.083441453455718!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba8f792ec7c0dbb%3A0x6c150aa4582cc7a4!2sKG%20College%20of%20Arts%20and%20Science!5e0!3m2!1sen!2sin!4v1719987190512!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <form action="" method="post">
+          <h3>get in touch</h3>
+          <div class="input-box">
+            <span class="fas fa-user"></span>
+            <input
+              type="text"
+              name="name"
+              id="contact-user"
+              placeholder="Your name is .."
+            />
+          </div>
+          <div class="input-box">
+            <span class="fas fa-envelope"></span>
+            <input
+              type="email"
+              name="email"
+              id="contact-email"
+              placeholder="example@mail.com"
+            />
+          </div>
+          <div class="input-box">
+            <span class="fas fa-phone"></span>
+            <input
+              type="tel"
+              id="phone"
+              name="contact-phone"
+              placeholder="(+91).."
+              pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
+            />
+          </div>
+          <input type="submit" value="contact now" class="btn" />
+        </form>
+      </div>
+    </section>
+    
+   
+  </body>
+</html>
